@@ -10,6 +10,12 @@
         "proseWrap": "never",
         "singleQuote": false
       }
+    },
+    {
+      "files": ["content/**/*.yml"],
+      "options": {
+        "singleQuote": false
+      }
     }
   ]
 }
