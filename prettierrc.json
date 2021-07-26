@@ -16,6 +16,12 @@
       "options": {
         "singleQuote": false
       }
+    },
+    {
+      "files": ["*.svg"],
+      "options": {
+        "parser": "html"
+      }
     }
   ]
 }
