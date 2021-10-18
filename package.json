@@ -1,9 +1,8 @@
 {
   "name": "@stefanprobst/prettier-config",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "main": "prettierrc.json",
   "repository": "git@github.com:stefanprobst/prettier-config.git",
-  "author": "Stefan Probst <stefanprobst@kolabnow.com>",
   "license": "MIT",
   "files": [
     "prettierrc.json"
