@@ -1,11 +1,13 @@
 {
   "name": "@stefanprobst/prettier-config",
-  "version": "2.0.0",
-  "main": "prettierrc.json",
+  "version": "2.0.1",
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": "git@github.com:stefanprobst/prettier-config.git",
   "license": "MIT",
   "files": [
-    "prettierrc.json"
+    "index.js",
+    "index.d.ts"
   ],
   "peerDependencies": {
     "prettier": ">=2"
