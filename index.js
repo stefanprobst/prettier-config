@@ -1,4 +1,5 @@
 const config = {
+  endOfLine: "lf",
   printWidth: 100,
   proseWrap: "always",
   semi: false,
