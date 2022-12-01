@@ -1,3 +1,4 @@
+/** @type {import('prettier').Config} */
 const config = {
   endOfLine: "lf",
   printWidth: 100,
@@ -23,6 +24,12 @@ const config = {
       files: ["*.svg"],
       options: {
         parser: "html",
+      },
+    },
+    {
+      files: ["*.vue"],
+      options: {
+        htmlWhitespaceSensitivity: "ignore",
       },
     },
   ],
