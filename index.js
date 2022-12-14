@@ -1,38 +1,38 @@
 /** @type {import('prettier').Config} */
 const config = {
-  endOfLine: "lf",
+  endOfLine: 'lf',
   printWidth: 100,
-  proseWrap: "always",
+  proseWrap: 'always',
   semi: false,
   singleQuote: true,
-  trailingComma: "all",
+  trailingComma: 'all',
   overrides: [
     {
-      files: ["content/**/*.@(md|mdx)"],
+      files: ['content/**/*.@(md|mdx)'],
       options: {
-        proseWrap: "always",
+        proseWrap: 'always',
         singleQuote: false,
       },
     },
     {
-      files: ["content/**/*.yml"],
+      files: ['content/**/*.yml'],
       options: {
         singleQuote: false,
       },
     },
     {
-      files: ["*.svg"],
+      files: ['*.svg'],
       options: {
-        parser: "html",
+        parser: 'html',
       },
     },
     {
-      files: ["*.vue"],
+      files: ['*.vue'],
       options: {
-        htmlWhitespaceSensitivity: "ignore",
+        htmlWhitespaceSensitivity: 'ignore',
       },
     },
   ],
-};
+}
 
-module.exports = config;
+module.exports = config
