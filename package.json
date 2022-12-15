@@ -28,6 +28,7 @@
     "@changesets/cli": "^2.25.2",
     "@commitlint/cli": "^17.3.0",
     "@stefanprobst/commitlint-config": "^1.0.3",
+    "@types/prettier": "^2.7.1",
     "lint-staged": "^13.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.1",
