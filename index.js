@@ -1,38 +1,28 @@
 /** @type {import('prettier').Config} */
 const config = {
-  endOfLine: 'lf',
-  printWidth: 100,
-  proseWrap: 'always',
-  semi: false,
-  singleQuote: true,
-  trailingComma: 'all',
-  overrides: [
-    {
-      files: ['content/**/*.@(md|mdx)'],
-      options: {
-        proseWrap: 'always',
-        singleQuote: false,
-      },
-    },
-    {
-      files: ['content/**/*.yml'],
-      options: {
-        singleQuote: false,
-      },
-    },
-    {
-      files: ['*.svg'],
-      options: {
-        parser: 'html',
-      },
-    },
-    {
-      files: ['*.vue'],
-      options: {
-        htmlWhitespaceSensitivity: 'ignore',
-      },
-    },
-  ],
-}
+	endOfLine: "lf",
+	printWidth: 100,
+	proseWrap: "always",
+	semi: true,
+	singleQuote: false,
+	// Used to calculate print width.
+	tabWidth: 2,
+	trailingComma: "all",
+	useTabs: true,
+	overrides: [
+		{
+			files: ["*.svg"],
+			options: {
+				parser: "html",
+			},
+		},
+		{
+			files: ["*.vue"],
+			options: {
+				htmlWhitespaceSensitivity: "ignore",
+			},
+		},
+	],
+};
 
-module.exports = config
+module.exports = config;
