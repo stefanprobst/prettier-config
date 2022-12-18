@@ -1,15 +1,13 @@
 {
 	"name": "@stefanprobst/prettier-config",
 	"version": "3.0.0",
+	"license": "MIT",
 	"main": "index.js",
 	"types": "index.d.ts",
-	"repository": "git@github.com:stefanprobst/prettier-config.git",
-	"license": "MIT",
 	"files": [
 		"index.js",
 		"index.d.ts"
 	],
-	"packageManager": "pnpm@7.18.1",
 	"scripts": {
 		"changeset:add": "changeset add",
 		"changeset:status": "changeset status --verbose",
@@ -21,6 +19,7 @@
 		"types:check": "tsc --noEmit",
 		"validate": "run-p format:check types:check"
 	},
+	"packageManager": "pnpm@7.18.1",
 	"peerDependencies": {
 		"prettier": ">=2"
 	},
