@@ -22,6 +22,12 @@ const config = {
 				htmlWhitespaceSensitivity: "ignore",
 			},
 		},
+		{
+			files: [".changeset/*.md"],
+			options: {
+				proseWrap: "never",
+			},
+		},
 	],
 };
 
