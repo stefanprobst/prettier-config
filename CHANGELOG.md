@@ -1,5 +1,12 @@
 # @stefanprobst/prettier-config
 
+## 3.0.1
+
+### Patch Changes
+
+- [`b9ae432`](https://github.com/stefanprobst/prettier-config/commit/b9ae4322a32d82c25336c26725f0d9f210d071af)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - don't prosewrap changeset entries
+
 ## 3.0.0
 
 ### Major Changes
