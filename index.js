@@ -29,12 +29,6 @@ const config = {
 			},
 		},
 		{
-			files: ["*.vue"],
-			options: {
-				htmlWhitespaceSensitivity: "ignore",
-			},
-		},
-		{
 			files: [".changeset/*.md"],
 			options: {
 				proseWrap: "never",
