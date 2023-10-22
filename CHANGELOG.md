@@ -1,5 +1,12 @@
 # @stefanprobst/prettier-config
 
+## 4.0.0
+
+### Major Changes
+
+- [`f38f496`](https://github.com/stefanprobst/prettier-config/commit/f38f496a4414f9c7d984d5236a4a74860d7c3711)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - require prettier v3
+
 ## 3.0.2
 
 ### Patch Changes
