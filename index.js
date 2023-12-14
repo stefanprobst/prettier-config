@@ -12,7 +12,7 @@ const config = {
 	overrides: [
 		/**
 		 * Currently it is not possible to set ignore patterns via config,
-		 * or set more than one ignore file (e.g. `.gitignore` and `prettierignore`).
+		 * or set more than one ignore file (e.g. `.gitignore` and `.prettierignore`).
 		 *
 		 * This workaround avoids auto-formatting `pnpm`'s lock file.
 		 */
@@ -29,12 +29,6 @@ const config = {
 			},
 		},
 		{
-			files: ["*.vue"],
-			options: {
-				htmlWhitespaceSensitivity: "ignore",
-			},
-		},
-		{
 			files: [".changeset/*.md"],
 			options: {
 				proseWrap: "never",
@@ -43,4 +37,4 @@ const config = {
 	],
 };
 
-module.exports = config;
+export default config;
