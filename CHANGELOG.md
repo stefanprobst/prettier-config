@@ -1,5 +1,12 @@
 # @stefanprobst/prettier-config
 
+## 4.0.1
+
+### Patch Changes
+
+- [`a77ed24`](https://github.com/stefanprobst/prettier-config/commit/a77ed24e2ca5a41b2511b90fbf678cb6b585b3b1)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - switch to esm config
+
 ## 4.0.0
 
 ### Major Changes
