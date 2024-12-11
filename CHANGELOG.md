@@ -1,5 +1,12 @@
 # @stefanprobst/prettier-config
 
+## 4.1.0
+
+### Minor Changes
+
+- [`383b213`](https://github.com/stefanprobst/prettier-config/commit/383b2133faa19aa86ed857f71ad12a95b2774614)
+  Thanks [@stefanprobst](https://github.com/stefanprobst)! - update deps
+
 ## 4.0.1
 
 ### Patch Changes
