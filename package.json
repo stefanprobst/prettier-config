@@ -5,15 +5,20 @@
 	"type": "module",
 	"main": "index.js",
 	"types": "index.d.ts",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
 	"files": [
 		"index.js",
 		"index.d.ts"
 	],
-	"packageManager": "pnpm@8.12.1",
+	"packageManager": "pnpm@9.15.0",
 	"scripts": {
 		"changeset:add": "changeset add",
 		"changeset:status": "changeset status --verbose",
 		"ci:release": "changeset publish",
+		"ci:version": "changeset version && prettier \"**/CHANGELOG.md\" --write",
 		"format:check": "prettier . --cache --check --ignore-path ./.gitignore",
 		"format:fix": "pnpm run format:check --write",
 		"prepare": "run-s setup",
@@ -26,15 +31,15 @@
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.5.0",
-		"@changesets/cli": "^2.27.1",
-		"@commitlint/cli": "^18.4.3",
+		"@changesets/cli": "^2.27.10",
+		"@commitlint/cli": "^19.6.0",
 		"@stefanprobst/commitlint-config": "^1.0.3",
-		"is-ci": "^3.0.1",
-		"lint-staged": "^15.2.0",
-		"npm-run-all2": "^6.1.1",
-		"prettier": "^3.1.1",
-		"simple-git-hooks": "^2.9.0",
-		"typescript": "^5.3.3"
+		"is-ci": "^4.1.0",
+		"lint-staged": "^15.2.11",
+		"npm-run-all2": "^7.0.1",
+		"prettier": "^3.4.2",
+		"simple-git-hooks": "^2.11.1",
+		"typescript": "^5.7.2"
 	},
 	"commitlint": {
 		"extends": "@stefanprobst/commitlint-config"
